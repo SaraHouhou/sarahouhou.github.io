@@ -37,7 +37,23 @@
         } 
        .starter-template {
   padding: 0px 15px;
-  text-align: center } </style>
+  text-align: center }
+  @media (min-width: 768px) {
+    .lead {
+      font-size: 21px; } 
+    }
+      .personal-picture {
+  display: block;
+  width: 160px;
+  height: 160px;
+  background: #e8e8e8;
+  -moz-border-radius: 160px;
+  -webkit-border-radius: 160px;
+  -ms-border-radius: 160px;
+  -o-border-radius: 160px;
+  border-radius: 160px; }
+  
+  </style>
     </noscript>
 </head>
 
@@ -103,8 +119,8 @@
 
         <div class="row">
 
-            <div class="w-25 p-3">
-                <div class="rounded-top"><img src="sara.png" alt="personal picture"/></div>
+            <div class="col-sm-3">
+                <div class="media personal-picture"><img src="sara.png" alt="personal picture"/></div>
             </div>
 
             <div class="col-sm-9">
