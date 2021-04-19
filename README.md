@@ -1,3 +1,3 @@
 # sarahouhou.github.io
 
-[Web site](https://sarahouhou.github.io/Sarahouhou/)
+[Web site](https://sarahouhou.github.io)
